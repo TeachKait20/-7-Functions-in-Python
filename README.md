@@ -34,14 +34,69 @@ print(add(10, 5)) # Напрямую вызываем функцию. Вывед
 
 ### Где можно использовать функции?
 
-Рассмотрим ситуацию: Есть компьютерная игра с различными персонажами и диалогами. 
+Рассмотрим ситуацию: есть компьютерная игра с различными персонажами и диалогами. 
 
 | Header 1 | Header 2 |
 |----------|----------|
-| <img src="https://github.com/TeachKait20/NoneCode/blob/main/func+python/magician.jpg?raw=true">   | Cell 2   |
-| <img src="https://github.com/TeachKait20/NoneCode/blob/main/func+python/archer.jpg?raw=true">   | Cell 5   |
-| <img src="https://github.com/TeachKait20/NoneCode/blob/main/func+python/enemy.jpg?raw=true" width="256">   | Cell 8   |
+| <img src="https://github.com/TeachKait20/NoneCode/blob/main/func+python/magician.jpg?raw=true" width="125">   | Mage: I use my best spell for protection.|
+| <img src="https://github.com/TeachKait20/NoneCode/blob/main/func+python/archer.jpg?raw=true" width="125">   | Archer: My people are ready! What's next?|
+| <img src="https://github.com/TeachKait20/NoneCode/blob/main/func+python/enemy.jpg?raw=true" width="125">   | Enemy: AAAAaaarrrrrggghhhhh|
 
+Таких диалогов (строк) может быть огромное количество. Наша задача: проверить у всех ли строк в конце есть знак препинания и не является ли строка пустой. <br>
+Для начала представим всё в виде кода:
+```python
+Mage = "I use my best spell for protection."
+Archer = "My people are ready! What's next?"
+Enemy = "AAAAaaarrrrrggghhhhh!"
+```
+Данное задание можно сделать с помощью простейших условий и применить их к каждой строке:
+```python
+if len(Mage) == 0:
+    print("Строка пуста!")
+else:
+    if Mage[-1] in "!.?":
+        print(True)
+    else:
+        print(False)
+
+if len(Archer) == 0:
+    print("Строка пуста!")
+else:
+    if Archer[-1] in "!.?":
+        print(True)
+    else:
+        print(False)
+
+if len(Enemy) == 0:
+    print("Строка пуста!")
+else:
+    if Enemy[-1] in "!.?":
+        print(True)
+    else:
+        print(False)
+```
+Но таких строк может быть гораздо больше, а код сложнее. Чтобы оптимизировать процесс, создадим функцию:
+```python
+# Функция для проверки строки
+def exam_string(string):
+    # Проверка, пуста ли строка
+    if len(string) == 0:
+        print("Строка пуста!")
+        return None  # Возвращаем None, так как строка пуста
+    else:
+        # Проверка, оканчивается ли строка на любой из символов '!', '.', '?'
+        if string[-1] in "!.?":
+            return True
+        else:
+            return False
+
+# Вызов функции для каждой строки и вывод результатов
+print(exam_string(Mage))   # Ожидается: True
+print(exam_string(Archer)) # Ожидается: True
+print(exam_string(Enemy))  # Ожидается: False
+```
+Так код станет короче и проще читаемый. Данную функцию можно будет вызвать в любое время одной строкой и проверить код.
 
 ## Аргументы функций
+
 Аргументов (параметров) для функции бывает несколько. Рассмотрим ещё аргументы со значениями по умолчанию.
