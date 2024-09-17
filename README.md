@@ -1,6 +1,8 @@
 # -7-Functions-in-Python
 ## Функции в Python
 
+<img src="https://github.com/TeachKait20/NoneCode/blob/main/func+python/work.gif?raw=true">
+
 Помимо встроенных функций в Python, можно создать и свою собственную. Функции позволяют объединять блоки кода, которые выполняют определенные задачи, и использовать их многократно в разных частях программы. В таком случае ключевое слово `def` используется для определения функции. <br>
 Синтаксис:  <br>
 ```
@@ -47,7 +49,7 @@ print(add(10, 5)) # Напрямую вызываем функцию. Вывед
 ```python
 Mage = "I use my best spell for protection."
 Archer = "My people are ready! What's next?"
-Enemy = "AAAAaaarrrrrggghhhhh!"
+Enemy = "AAAAaaarrrrrggghhhhh"
 ```
 Данное задание можно сделать с помощью простейших условий и применить их к каждой строке:
 ```python
