@@ -36,7 +36,7 @@ print(add(10, 5)) # Напрямую вызываем функцию. Вывед
 
 Рассмотрим ситуацию: есть компьютерная игра с различными персонажами и диалогами. 
 
-| Header 1 | Header 2 |
+| Персонаж | Фраза |
 |----------|----------|
 | <img src="https://github.com/TeachKait20/NoneCode/blob/main/func+python/magician.jpg?raw=true" width="125">   | Mage: I use my best spell for protection.|
 | <img src="https://github.com/TeachKait20/NoneCode/blob/main/func+python/archer.jpg?raw=true" width="125">   | Archer: My people are ready! What's next?|
