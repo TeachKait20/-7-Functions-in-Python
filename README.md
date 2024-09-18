@@ -129,6 +129,35 @@ print(spaceship_1)
 print(spaceship_2)
 print(spaceship_3)
 ```
+### Пример 4
+Функции можно вызывать в потоке. Есть план для текстовой игры:
+![image](https://github.com/user-attachments/assets/45040d82-1893-4520-8846-6a009f45ebf2)
+
+```python
+def start():
+    print("Игра началась")
+
+def rules():
+    print("Правила игры ...")
+
+def menu():
+    while True:
+        print("[1] - Начать игру\n[2] - Правила игры\n[3] - Выход")
+        answer = input("> ")
+        if answer == "1":
+            start()
+            break
+        elif answer == "2":
+            rules()
+        elif answer == "3":
+            print("Выход...")
+            break
+        else:
+            print("Такого варианта нет. Повторите выбор.")
+
+
+menu()
+```
 
 ## Аргументы функций
 
