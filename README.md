@@ -356,6 +356,6 @@ outer_function()
 
 ## Задания для самостоятельного выполнения
 
-<img src="https://github.com/TeachKait20/NoneCode/blob/main/func+python/hack.gif?raw=true" width="500">
+<img src="https://github.com/TeachKait20/NoneCode/blob/main/func+python/hack.gif?raw=true" width="300">
 
 
