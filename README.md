@@ -274,6 +274,8 @@ complex_function(1, 3, 4, 5, x=10, y=20)
 
 ## Глобальные и локальные переменные
 
+<img src="https://github.com/TeachKait20/NoneCode/blob/main/func+python/snow.gif?raw=true">
+
 Так как мы подошли к теме функций, вы могли заметить, что Python не будет выдавать ошибку при использовании переменных с одинаковыми именами вне и внутри функции. Например:
 ```python
 var = 15
@@ -354,5 +356,6 @@ outer_function()
 
 ## Задания для самостоятельного выполнения
 
+<img src="https://github.com/TeachKait20/NoneCode/blob/main/func+python/hack.gif?raw=true" width="500">
 
 
