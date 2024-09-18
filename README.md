@@ -271,3 +271,8 @@ def complex_function(a, b=2, *args, **kwargs):
 # Вызов функции с приведенными аргументами
 complex_function(1, 3, 4, 5, x=10, y=20)
 ```
+
+## Задания для самостоятельного выполнения
+
+<img src="https://github.com/TeachKait20/NoneCode/blob/main/func+python/UltraLinx.gif?raw=true" width="1100">
+
