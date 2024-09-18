@@ -108,7 +108,7 @@ print(exam_string(Enemy))  # Ожидается: False
 
 | Объект | Описание |
 |----------|----------|
-| <img src="https://github.com/TeachKait20/NoneCode/blob/main/func+python/spaceship.gif?raw=true">   |объект: космический корабль <br> класс корабля: штурмовой <br> работает: да <br> скорость: 28000 <br> количество пушек: 4|
+| <img src="https://github.com/TeachKait20/NoneCode/blob/main/func+python/spaceship.gif?raw=true" width="225">   |**объект:*** космический корабль <br> **класс корабля:** штурмовой <br> **работает:** да <br> **скорость:** 28000 <br> **количество пушек:** 4|
 
 ## Аргументы функций
 
