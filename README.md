@@ -131,7 +131,9 @@ print(spaceship_3)
 ```
 ### Пример 4
 Функции можно вызывать в потоке. Есть план для текстовой игры:
-![image](https://github.com/user-attachments/assets/45040d82-1893-4520-8846-6a009f45ebf2)
+
+![image](https://github.com/user-attachments/assets/1291e97d-40b3-4a91-9a63-317ea1c1d69d)
+
 
 ```python
 def start():
