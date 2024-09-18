@@ -106,9 +106,29 @@ print(exam_string(Enemy))  # Ожидается: False
 
 ### Пример 3
 
+Можно быстро присваивать переменным большие/длинные значения: 
+
 | Объект | Описание |
 |----------|----------|
 | <img src="https://github.com/TeachKait20/NoneCode/blob/main/func+python/spaceship.gif?raw=true" width="225">   |**объект:** космический корабль <br> **класс корабля:** штурмовой <br> **работает:** да <br> **скорость:** 32000 <br> **количество пушек:** 4|
+| <img src="https://github.com/TeachKait20/NoneCode/blob/main/func+python/spaceship2.gif?raw=true" width="225">   |**объект:** космический корабль <br> **класс корабля:** разведывательный <br> **работает:** да <br> **скорость:** 48000 <br> **количество пушек:** 0|
+
+Представим в виде функции:
+```python
+def create_spaceship(object, ship_class, works, speed, guns):
+    if works == True:
+        return f"[{object}] class: {ship_class} speed: {speed} number of guns: {guns}"
+    else:
+        return f"[{object}] class: {ship_class} speed: {speed} number of guns: {guns} ERROR: the ship is broken!"
+
+spaceship_1 = create_spaceship("spaceship", "assault", True, 32000, 4)
+spaceship_2 = create_spaceship("spaceship", "reconnaissance", True, 48000, 0)
+spaceship_3 = create_spaceship("spaceship", "cargo ", False, 13000, 0)
+
+print(spaceship_1)
+print(spaceship_2)
+print(spaceship_3)
+```
 
 ## Аргументы функций
 
