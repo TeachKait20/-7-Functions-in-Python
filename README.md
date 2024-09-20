@@ -400,3 +400,4 @@ outer_function()
 ![image](https://github.com/user-attachments/assets/bb505c08-d4ef-4b8a-9c78-d3ccaaec8dec)
 
 ### Задание 2
+
