@@ -352,7 +352,7 @@ outer_function()
 
 ## Аннотации
 
-<img src="https://github.com/TeachKait20/NoneCode/blob/main/func+python/train.gif?raw=true" width="600">
+<img src="https://github.com/TeachKait20/NoneCode/blob/main/func+python/train.gif?raw=true" width="650">
 
 Аннотации в Python — это механизм, позволяющий указывать типы аргументов и возвращаемых значений функций. Аннотации служат для документирования и повышения читаемости кода, но они не являются обязательными и не влияют на выполнение программы.
 
